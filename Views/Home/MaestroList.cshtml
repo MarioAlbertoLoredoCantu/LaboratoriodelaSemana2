@@ -1,0 +1,25 @@
+@model MaestroModel;
+
+@{
+    ViewData["Title"] = "Listado de Profesores";
+    DateTime fechaInscripcion = new DateTime(2024, 05, 20);
+}
+
+<center>
+    <h1 class="display-2">Listado de profesores</h1>
+</center>
+<br>
+<h2>@DateTime.Now</h2>
+<i>@fechaInscripcion</i>
+
+<h3>@Model.Nombre es profesor de la carrera</h3>
+<br>
+
+<img src="~/img/guts.png" width="950" height="950">
+<br><br>
+<label>Esto puede ser una prueba</label>
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
