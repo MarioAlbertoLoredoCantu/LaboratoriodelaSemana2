@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "PA/Ccfx7u0sIguvdvVCtOXxanz78j6sIcpMe2iVbLT0=",
+  "Hash": "q/WK8P4EmmPhVIceagYuLHmGCeajAdz7VtJV2p6AELc=",
   "Source": "MyfirstProyectWithLineCommand",
   "BasePath": "_content/MyfirstProyectWithLineCommand",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Manyra Cantú\\Documents\\Trabajos tetra 6 informatica\\Generalidades\\MyfirstProyectWithLineCommand\\wwwroot\\img\\clover.jpg",
+      "SourceId": "MyfirstProyectWithLineCommand",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Manyra Cantú\\Documents\\Trabajos tetra 6 informatica\\Generalidades\\MyfirstProyectWithLineCommand\\wwwroot\\",
+      "BasePath": "_content/MyfirstProyectWithLineCommand",
+      "RelativePath": "img/clover.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\clover.jpg"
     },
     {
       "Identity": "C:\\Users\\Manyra Cantú\\Documents\\Trabajos tetra 6 informatica\\Generalidades\\MyfirstProyectWithLineCommand\\wwwroot\\img\\guts.png",

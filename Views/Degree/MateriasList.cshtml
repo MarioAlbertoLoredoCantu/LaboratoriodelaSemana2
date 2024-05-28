@@ -1,0 +1,67 @@
+@model IEnumerable<MateriasModel>;
+
+@{
+
+    ViewData["Title"] = "Listado de materias";
+    DateTime FechaCreacion = new DateTime(2024, 05, 17);
+
+}
+
+<center>
+    <h1 class="display-2">Listado de materias</h1>
+
+    <a asp-controller="Degree" asp-action="DegreeAdd" class="btn btn-primary mb-3">
+        Agregar Materia
+
+    </a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th Acciones></th>
+                <th>Nombre</th>
+            </tr>
+
+        </thead>
+        <tbody>
+            @foreach (var degree in Model)
+            {
+                <tr>
+                    <td>
+                        <a class="btn btn-danger" asp-controller="Degree" asp-action="DegreeEdit" asp-route-id="@degree.id">Edición</a>
+                        <a class="btn btn-primary" asp-controller="Degree" asp-action="DegreeShowAndDeleted" asp-route-id="@degree.id">Borrar</a>
+                    </td>
+                    <td>
+                        @degree.Nombre
+                    </td>
+                </tr>
+            }
+
+        </tbody>
+        <tfoot>
+
+
+        </tfoot>
+
+    </table>
+
+    <br>
+
+    @*<i>@FechaCreacion</i>
+    <h3>@Model.Nombre es la materia </h3>
+    <br>
+    <img src="~/img/clover.jpg" width="550" height="550">
+
+    <br><br>
+    <label size="2">Es una prueba</label>
+
+
+    <div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    </div>
+    *@
+
+
+
+
+</center>

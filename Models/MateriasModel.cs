@@ -1,3 +1,5 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace MyfirstProyectWithLineCommand.Models
 {
     public class MateriasModel :BaseModel
@@ -6,6 +8,9 @@ namespace MyfirstProyectWithLineCommand.Models
         {
 
         }
+
+        [Required(ErrorMessage = "El {0} es un campo requerido")]
+      
         public string Nombre { get; set; }
     }
 

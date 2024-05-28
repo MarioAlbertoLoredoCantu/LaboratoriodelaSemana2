@@ -28,3 +28,4 @@ C:\Users\Manyra Cantú\Documents\Trabajos tetra 6 informatica\Generalidades\Myfi
 C:\Users\Manyra Cantú\Documents\Trabajos tetra 6 informatica\Generalidades\MyfirstProyectWithLineCommand\obj\Debug\net8.0\MyfirstProyectWithLineCommand.pdb
 C:\Users\Manyra Cantú\Documents\Trabajos tetra 6 informatica\Generalidades\MyfirstProyectWithLineCommand\obj\Debug\net8.0\MyfirstProyectWithLineCommand.genruntimeconfig.cache
 C:\Users\Manyra Cantú\Documents\Trabajos tetra 6 informatica\Generalidades\MyfirstProyectWithLineCommand\obj\Debug\net8.0\ref\MyfirstProyectWithLineCommand.dll
+C:\Users\Manyra Cantú\Documents\Trabajos tetra 6 informatica\Generalidades\MyfirstProyectWithLineCommand\obj\Debug\net8.0\MyfirstProyectWithLineCommand.sourcelink.json

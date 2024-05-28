@@ -28,28 +28,10 @@ public class HomeController : Controller
     {
         return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
     }
-    public IActionResult StudentList()
-    {
-        StudentModel Alumno = new StudentModel();
-        Alumno.Nombre = "Mario Loredo";
-        Alumno.Carrera = "Ing en Desarrollo Software";
-        Alumno.FechaCreacion = new DateTime(2024, 05, 17);
-        return View(Alumno);
-    }
-    public IActionResult MaestroList()
-    {
-       MaestroModel Maestro = new MaestroModel();
-       Maestro.Nombre = "Ricardo Arturo";
-       Maestro.Carrera = "Ing en Desarrollo Software";
-        return View(Maestro);
-     
-    }
- public IActionResult MateriasList()
-    {
-       MateriasModel Materia = new MateriasModel();
-       Materia.Nombre = "Calculo Integral";
-        return View(Materia);
-     
-    }
+   
+   
+
+
+    
    
 }

@@ -1,0 +1,75 @@
+
+@model IEnumerable<StudentModel>;
+
+
+@{
+    ViewData["Title"] = "Listado de Alumnos";
+}
+<center>
+    <h1 class="display-2"> Listado de Alumnos</h1>
+
+     <a asp-controller="Student" asp-action="StudentAdd" class="btn btn-primary mb-3">
+        Agregar Alumnos
+
+    </a>
+    <br>
+
+    <table class="table">
+    <thead>
+<tr>
+    <th> Acciones</th>
+     <th>Matricula</th>
+     <th> Nombre</th>
+     <th>Carrera</th>
+     <th> Edad</th>
+     <th>Sexo</th>
+</tr>
+
+    </thead>
+    <tbody>
+@foreach (var student in Model)
+{
+    <tr>
+        <td>
+<a class="btn btn-danger" asp-controller="Student" asp-action="StudentShowAndEdit">Edición</a>
+<a class="btn btn-primary" asp-controller="Student" asp-action="StudentShowAndDeleted">Borrar</a>
+        </td>
+         <td>
+            @student.Matricula
+         </td>
+         <td>
+            @student.Nombre
+         </td>
+         <td>
+            @student.Carrera
+         </td>
+         <td>
+            @student.Edad
+         </td>
+         <td>
+            @student.Sexo
+         </td>
+    </tr>
+}
+    
+    </tbody>
+  <tfoot>
+
+            
+        </tfoot>
+@*
+</table>
+    <h2>@DateTime.Now</h2>
+    <br>
+    <h3>@Model.Nombre ese alumno de la carrera @Model.Carrera</h3>
+    <br>
+    <img src="~/img/halo.jpeg" width="550" height="550">
+    <br><br>
+    <label> Esto es una prueba</label>
+</center>
+
+
+<div class="text-center">
+    @*<h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>*@
+</div>

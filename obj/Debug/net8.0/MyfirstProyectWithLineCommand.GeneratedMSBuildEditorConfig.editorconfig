@@ -18,24 +18,36 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Manyra Cantú\Documents\Trabajos tetra 6 informatica\Generalidades\MyfirstProyectWithLineCommand
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Manyra Cantú/Documents/Trabajos tetra 6 informatica/Generalidades/MyfirstProyectWithLineCommand/Views/Degree/DegreeAdd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVncmVlXERlZ3JlZUFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manyra Cantú/Documents/Trabajos tetra 6 informatica/Generalidades/MyfirstProyectWithLineCommand/Views/Degree/DegreeEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVncmVlXERlZ3JlZUVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manyra Cantú/Documents/Trabajos tetra 6 informatica/Generalidades/MyfirstProyectWithLineCommand/Views/Degree/DegreeShowAndDeleted.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVncmVlXERlZ3JlZVNob3dBbmREZWxldGVkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manyra Cantú/Documents/Trabajos tetra 6 informatica/Generalidades/MyfirstProyectWithLineCommand/Views/Degree/MateriasList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVncmVlXE1hdGVyaWFzTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Manyra Cantú/Documents/Trabajos tetra 6 informatica/Generalidades/MyfirstProyectWithLineCommand/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Manyra Cantú/Documents/Trabajos tetra 6 informatica/Generalidades/MyfirstProyectWithLineCommand/Views/Home/MaestroList.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNYWVzdHJvTGlzdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Manyra Cantú/Documents/Trabajos tetra 6 informatica/Generalidades/MyfirstProyectWithLineCommand/Views/Home/MateriasList.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNYXRlcmlhc0xpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Manyra Cantú/Documents/Trabajos tetra 6 informatica/Generalidades/MyfirstProyectWithLineCommand/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Manyra Cantú/Documents/Trabajos tetra 6 informatica/Generalidades/MyfirstProyectWithLineCommand/Views/Home/StudentList.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTdHVkZW50TGlzdC5jc2h0bWw=
+[C:/Users/Manyra Cantú/Documents/Trabajos tetra 6 informatica/Generalidades/MyfirstProyectWithLineCommand/Views/Maestro/MaestroAdd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFlc3Ryb1xNYWVzdHJvQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manyra Cantú/Documents/Trabajos tetra 6 informatica/Generalidades/MyfirstProyectWithLineCommand/Views/Maestro/MaestroList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFlc3Ryb1xNYWVzdHJvTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Manyra Cantú/Documents/Trabajos tetra 6 informatica/Generalidades/MyfirstProyectWithLineCommand/Views/Shared/Error.cshtml]
@@ -44,6 +56,26 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Manyra Cantú/Documents/Trabajos tetra 6 informatica/Generalidades/MyfirstProyectWithLineCommand/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manyra Cantú/Documents/Trabajos tetra 6 informatica/Generalidades/MyfirstProyectWithLineCommand/Views/Student/StudentAdd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxTdHVkZW50QWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manyra Cantú/Documents/Trabajos tetra 6 informatica/Generalidades/MyfirstProyectWithLineCommand/Views/Student/StudentEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxTdHVkZW50RWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manyra Cantú/Documents/Trabajos tetra 6 informatica/Generalidades/MyfirstProyectWithLineCommand/Views/Student/StudentList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxTdHVkZW50TGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manyra Cantú/Documents/Trabajos tetra 6 informatica/Generalidades/MyfirstProyectWithLineCommand/Views/Student/StudentShowAndDeleted.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxTdHVkZW50U2hvd0FuZERlbGV0ZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manyra Cantú/Documents/Trabajos tetra 6 informatica/Generalidades/MyfirstProyectWithLineCommand/Views/Student/StudentShowAndEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxTdHVkZW50U2hvd0FuZEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Manyra Cantú/Documents/Trabajos tetra 6 informatica/Generalidades/MyfirstProyectWithLineCommand/Views/_ViewImports.cshtml]

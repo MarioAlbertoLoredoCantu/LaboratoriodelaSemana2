@@ -1,0 +1,16 @@
+@{
+    ViewData["Title"] = "Editar la materia";
+}
+
+<div asp-validation-summary="All" class="text-danger"></div>
+<form asp-controller="Degree" asp-action="DegreeEdit">
+
+
+<div clases="mb-3">
+    <label for="nombre" class="form-label" class="form-label">Nombre</label>
+    <input type="text" class="form-control" id="nombre" name="nombre"
+    name="nombre" placeholder="escriba la carrera" />
+</div>
+<button type="submit" class="btn btn-primary">Guardar</button>
+<button type="submit" class="btn btn-secundary">cancelar</button>
+</form>
