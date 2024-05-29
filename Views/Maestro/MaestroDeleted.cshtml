@@ -1,0 +1,18 @@
+@model MaestroModel
+
+@{
+    ViewData["Title"] = "Borrar Maestro";
+
+}
+<div class="mb-3">
+
+    ¿estas seguro de que deseas borrar la materia: ?
+</div>
+
+<form asp-controller="Maestro" asp-action="MaestroDeleted">
+<button>Borrar</button>
+<a class="btn btn-secundary" asp-controller="MaestroList"  asp-controller="Maestro">
+    Regresar
+</a>
+
+</form>

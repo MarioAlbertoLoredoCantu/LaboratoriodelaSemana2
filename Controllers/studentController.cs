@@ -5,15 +5,31 @@ namespace MyfirstProyectWithLineCommand.Controllers
 {
     public class studentController : Controller
     {
-        public studentController()
+       private readonly ILogger<studentController> _logger;
+
+       public studentController(ILogger<studentController> logger)
         {
+            _logger = logger;
         }
-public IActionResult StudentAdd()
+        public IActionResult StudentAdd()
+        {
+            return View();
+        }
+        [HttpPost]
+public IActionResult StudentAdd(StudentModel student)
     {
        
-        return View();
+        if (!ModelState.IsValid)
+            {
+                _logger.LogWarning("WattsonOO");
+                return View();
+            }
+
+            _logger.LogInformation("HOLAAAAAAA");
+
+            return Redirect("StudentList");
     }
-    public IActionResult StudentSave()
+    public IActionResult StudentDeleted()
     {
        
         return Redirect("StudentList");
@@ -58,14 +74,31 @@ public IActionResult StudentAdd()
     {
         return Redirect("StudentList");
     }
-    public IActionResult StudentShowAndDeleted()
-    {
-        return View();
-    }
-     public IActionResult StudentDeleted()
-    {
-        return Redirect("StudentList");
-    }
+
+   
+      public IActionResult StudentEdit(Guid Id)
+        {
+            MateriasModel nombre = new MateriasModel();
+            nombre.id = Id;
+            nombre.Nombre = "Materia cargada";
+            return View(nombre);
+        }
+        [HttpPost]
+        public IActionResult StudentEdit(StudentModel nombre)
+        {
+
+     if (!ModelState.IsValid)
+            {
+                _logger.LogWarning("WattsonOO");
+                  nombre.Nombre = "Materia no validad";
+                return View(nombre);
+            }
+
+            _logger.LogInformation("HOLAAAAAAA");
+
+            return Redirect("StudentList");
+
+        }
 
     }
 }

@@ -1,4 +1,4 @@
-@model MaestroModel;
+@model IEnumerable<MaestroModel>;
 
 @{
     ViewData["Title"] = "Listado de Profesores";
@@ -13,19 +13,58 @@
 
     </a>
 
-</center>
-<br>
-<h2>@DateTime.Now</h2>
-<i>@fechaInscripcion</i>
+    <table class="table">
+        <thead>
+<tr>
+     <th> Nombre</th>
+     <th>Carrera</th>
+     <th> Edad</th>
+     <th>Sexo</th>
+</tr>
+        </thead>
+        <tbody>
+                @foreach (var teacher in Model)
+                {
+                <tr>
+                    <td>
+                        <a class="btn btn-danger" asp-controller="Maestro" asp-action="MaestroEdit" asp-route-id="@teacher.id">Edición</a>
+                        <a class="btn btn-primary" asp-controller="Maestro" asp-action="MaestroDeleted" asp-route-id="@teacher.id">Borrar</a>
 
-<h3>@Model.Nombre es profesor de la carrera</h3>
-<br>
+                    </td>
+                    <td>
+                            @teacher.Nombre
+                    </td>
+                     <td>
+                            @teacher.Carrera
+                    </td>
+                    <td>
+                            @teacher.Edad
+                    </td>
+                    <td>
+                            @teacher.Sexo
+                    </td>
+                </tr>
+                }
+        </tbody>
+        <tfoot>
 
-<img src="~/img/guts.png" width="950" height="950">
-<br><br>
-<label>Esto puede ser una prueba</label>
+        </tfoot>
+    </table>
+    </center>
+        @*
+    </center>
+    <br>
+    <h2>@DateTime.Now</h2>
+    <i>@fechaInscripcion</i>
+*@
+    <h3>@Model.Nombre es profesor de la carrera</h3>
+    <br>
 
-<div class="text-center">
+    <img src="~/img/guts.png" width="950" height="950">
+    <br><br>
+    <label>Esto puede ser una prueba</label>
+
+    <div class="text-center">
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+    </div>

@@ -1,8 +1,12 @@
+@model StudentModel
+
+
 @{
     ViewData["Title"] = "Alta de Estudiantes";
 }
+<div asp-validation-summary="All" class="text-danger"></div>
 
-<form asp-controller="Student" asp-action="StudentSave">
+<form asp-controller="Student" asp-action="StudentAdd">
 
 
 <div clases="mb-3">

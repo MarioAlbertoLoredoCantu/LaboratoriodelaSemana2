@@ -1,12 +1,11 @@
-@model MateriasModel
-
 @{
-    ViewData["Title"] = "Alta de Materia";
+    ViewData["Title"] = "Editar la Maestro";
 }
 
 <div asp-validation-summary="All" class="text-danger"></div>
+<form asp-controller="Maestro" asp-action="MaestroEdit">
 
-<form asp-controller="Degree" asp-action="DegreeAdd">
+
 <div clases="mb-3">
     <label for="nombre" class="form-label" class="form-label">Nombre</label>
     <input type="text" class="form-control" id="nombre" name="nombre"

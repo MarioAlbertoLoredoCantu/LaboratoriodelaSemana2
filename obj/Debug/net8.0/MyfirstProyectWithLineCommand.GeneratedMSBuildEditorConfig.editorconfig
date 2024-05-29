@@ -46,6 +46,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFlc3Ryb1xNYWVzdHJvQWRkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Manyra Cantú/Documents/Trabajos tetra 6 informatica/Generalidades/MyfirstProyectWithLineCommand/Views/Maestro/MaestroDeleted.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFlc3Ryb1xNYWVzdHJvRGVsZXRlZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manyra Cantú/Documents/Trabajos tetra 6 informatica/Generalidades/MyfirstProyectWithLineCommand/Views/Maestro/MaestroEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFlc3Ryb1xNYWVzdHJvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Manyra Cantú/Documents/Trabajos tetra 6 informatica/Generalidades/MyfirstProyectWithLineCommand/Views/Maestro/MaestroList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFlc3Ryb1xNYWVzdHJvTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -62,16 +70,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxTdHVkZW50QWRkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Manyra Cantú/Documents/Trabajos tetra 6 informatica/Generalidades/MyfirstProyectWithLineCommand/Views/Student/StudentDeleted.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxTdHVkZW50RGVsZXRlZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Manyra Cantú/Documents/Trabajos tetra 6 informatica/Generalidades/MyfirstProyectWithLineCommand/Views/Student/StudentEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxTdHVkZW50RWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Manyra Cantú/Documents/Trabajos tetra 6 informatica/Generalidades/MyfirstProyectWithLineCommand/Views/Student/StudentList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxTdHVkZW50TGlzdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Manyra Cantú/Documents/Trabajos tetra 6 informatica/Generalidades/MyfirstProyectWithLineCommand/Views/Student/StudentShowAndDeleted.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxTdHVkZW50U2hvd0FuZERlbGV0ZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Manyra Cantú/Documents/Trabajos tetra 6 informatica/Generalidades/MyfirstProyectWithLineCommand/Views/Student/StudentShowAndEdit.cshtml]

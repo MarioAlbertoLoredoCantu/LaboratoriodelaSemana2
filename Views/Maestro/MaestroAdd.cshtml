@@ -1,14 +1,33 @@
-@{
-    ViewData["Title"] = "Alta de Estudiantes";
-}
+@model MaestroModel
 
-<form>
+@{
+    ViewData["Title"] = "Alta de Maestro";
+}
+<div asp-validation-summary="All" class="text-danger"></div>
+
+
+<form asp-controller="Maestro" asp-action="MaestroAdd">
 
 
 <div clases="mb-3">
-    <label for="nombre" class="form-label" class="form-label">Nombre></label>
+    <label for="nombre" class="form-label" class="form-label">Nombre</label>
     <input type="text" class="form-control" id="nombre" name="nombre"
     name="nombre" placeholder="escriba al Maestro" />
+</div>
+<div clases="mb-3">
+    <label for="carrera" class="form-label" class="form-label">Carrera</label>
+    <input type="text" class="form-control" id="carrera" name="carrera"
+    name="carrera" placeholder="escriba al Maestro" />
+</div>
+<div clases="mb-3">
+    <label for="edad" class="form-label" class="form-label">Edad</label>
+    <input type="text" class="form-control" id="edad" name="edad"
+    name="edad" placeholder="escriba al Maestro" />
+</div>
+<div clases="mb-3">
+    <label for="sexo" class="form-label" class="form-label">Sexo</label>
+    <input type="text" class="form-control" id="sexo" name="sexo"
+    name="sexo" placeholder="escriba al Maestro" />
 </div>
 <button type="submit" class="btn btn-primary">Guardar</button>
 <button type="submit" class="btn btn-secundary">cancelar</button>
